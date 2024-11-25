@@ -12,7 +12,7 @@ const NavBar = () => {
           <div className="flex flex-col items-center cursor-pointer gap-1 group">
             <HomeIcon
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
-              sx={{ width: "30px", height: "30px", color: "white" }}
+              sx={{ width: "24px", height: "24px", color: "white" }}
             />
             <p className="opacity-0 text-white text-xl group-hover:opacity-100 transition-opacity duration-300">
               Home
@@ -22,7 +22,7 @@ const NavBar = () => {
           <div className="flex flex-col items-center cursor-pointer gap-2 group">
             <CollectionsIcon
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
-              sx={{ width: "30px", height: "30px", color: "white" }}
+              sx={{ width: "24px", height: "24px", color: "white" }}
             />
             <p className="opacity-0 text-white text-xl group-hover:opacity-100 transition-opacity duration-300">
               Collections
@@ -32,9 +32,9 @@ const NavBar = () => {
           <div className="flex flex-col items-center cursor-pointer gap-2 group">
             <PersonIcon
               className="animate-bounce-custom group-hover:animate-bounce"
-              sx={{ width: "30px", height: "30px", color: "white" }}
+              sx={{ width: "24px", height: "24px", color: "white" }}
             />
-            <p className="opacity-0 text-white text-xl group-hover:opacity-100 transition-opacity duration-300">
+            <p className="opacity-0 text-white text-lg group-hover:opacity-100 transition-opacity duration-300">
               Profile
             </p>
           </div>
@@ -47,7 +47,7 @@ const NavBar = () => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            class="h-12 text-gray-200 p-2 bg-[#10B981] rounded-l-lg">
+            class="h-10 text-gray-200 p-2 bg-[#10B981] rounded-l-lg">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -56,13 +56,13 @@ const NavBar = () => {
           </svg>
           <input
             type="text"
-            class="border-none font-bold bg-gray-100 outline-none p-3 rounded-r-lg flex flex-grow max-w-2xl"
+            class="border-none font-bold bg-gray-100 outline-none p-2 rounded-r-lg flex flex-grow max-w-2xl"
             placeholder="Search for a movie"
           />
         </form>
       </div>
-      <a href="/">
-        <img width={120} src={logo} alt="logo" />
+      <a href="">
+        <img width={100} src={logo} alt="logo" />
       </a>
     </nav>
   );

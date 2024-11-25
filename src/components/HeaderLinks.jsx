@@ -5,7 +5,7 @@ const HeaderLinks = () => {
       <ul className="flex gap-9 text-[#CDCED2]">
         {CATEGORY_LINKS.map((item) => (
           <li
-            className="text-3xl whitespace-nowrap transition-transform duration-300 font-bold hover:scale-125 hover:text-white"
+            className="text-2xl whitespace-nowrap transition-transform duration-300 font-bold hover:scale-125 hover:text-white"
             key={item.name}>
             <a href={item.link}>{item.name}</a>
           </li>

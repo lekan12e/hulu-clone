@@ -7,14 +7,14 @@ import PersonIcon from "@mui/icons-material/Person";
 const NavBar = () => {
   return (
     <nav className="flex items-center w-full sm:px-12 flex-col justify-between space-y-8 py-5 sm:flex-row sm:space-y-0">
-      <div className="flex gap-9 flex-grow">
-        <div className="flex items-center gap-5 w-2/3 sm:w-auto sm:space-x-10 justify-evenly sm:justify-start">
+      <div className="flex gap-6 flex-grow">
+        <div className="flex items-center gap-2 w-2/3 sm:w-auto sm:space-x-10 justify-evenly sm:justify-start">
           <div className="flex flex-col items-center cursor-pointer gap-1 group">
             <HomeIcon
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
             />
-            <p className="opacity-0 text-white text-xl group-hover:opacity-100 transition-opacity duration-300">
+            <p className="opacity-0 text-white text-base group-hover:opacity-100 transition-opacity duration-300">
               Home
             </p>
           </div>
@@ -24,7 +24,7 @@ const NavBar = () => {
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
             />
-            <p className="opacity-0 text-white text-xl group-hover:opacity-100 transition-opacity duration-300">
+            <p className="opacity-0 text-white text-base group-hover:opacity-100 transition-opacity duration-300">
               Collections
             </p>
           </div>
@@ -34,7 +34,7 @@ const NavBar = () => {
               className="animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
             />
-            <p className="opacity-0 text-white text-lg group-hover:opacity-100 transition-opacity duration-300">
+            <p className="opacity-0 text-white text-base group-hover:opacity-100 transition-opacity duration-300">
               Profile
             </p>
           </div>

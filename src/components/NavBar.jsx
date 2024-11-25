@@ -6,10 +6,10 @@ import PersonIcon from "@mui/icons-material/Person";
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center w-full sm:px-12 flex-col justify-between space-y-8 py-5 sm:flex-row sm:space-y-0">
+    <nav className="flex items-center w-full sm:px-10 flex-col justify-between space-y-8 py-5 sm:flex-row sm:space-y-0">
       <div className="flex gap-6 flex-grow">
         <div className="flex items-center gap-2 w-2/3 sm:w-auto sm:space-x-10 justify-evenly sm:justify-start">
-          <div className="flex flex-col items-center cursor-pointer gap-1 group">
+          <div className="flex flex-col items-center cursor-pointer group">
             <HomeIcon
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
@@ -19,7 +19,7 @@ const NavBar = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center cursor-pointer gap-2 group">
+          <div className="flex flex-col items-center cursor-pointer group">
             <CollectionsIcon
               className="w-9 h-9 animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
@@ -29,7 +29,7 @@ const NavBar = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center cursor-pointer gap-2 group">
+          <div className="flex flex-col items-center cursor-pointer group">
             <PersonIcon
               className="animate-bounce-custom group-hover:animate-bounce"
               sx={{ width: "24px", height: "24px", color: "white" }}
@@ -62,7 +62,11 @@ const NavBar = () => {
         </form>
       </div>
       <a href="">
-        <img width={100} src={logo} alt="logo" />
+        <img
+          className="w-24 hover:scale-125 transition-transform duration-300"
+          src={logo}
+          alt="logo"
+        />
       </a>
     </nav>
   );

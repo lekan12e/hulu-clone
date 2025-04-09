@@ -49,7 +49,7 @@ const Detail = () => {
   }
 
   return (
-    <div className="p-10">
+    <div className="p-10 text-white">
       <img
         src={item.image}
         alt={item.title || "Detail Image"}
